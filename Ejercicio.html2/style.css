@@ -1,0 +1,150 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #0288d1;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background-color: #fdfdfd;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(6, 6, 6);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #005f8a;
+    border-radius: 5px;
+}
+
+.main {
+    padding: 20px;
+    float: left;
+}
+
+.main {
+    max-width: 60%;
+    height: auto;
+}
+
+article {
+    padding: 20px;
+    background-color: #fdfdfd;
+}
+
+
+article h2 {
+    color: #333;
+}
+
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+aside {
+    background-color: #0288d1;
+    color: rgb(239, 226, 226);
+    padding: 20px;
+    width: 30%;
+    float: right;
+}
+
+.width {
+    margin-bottom: 20px;
+}
+    
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.width h3 {
+    color: rgb(90, 1, 95);
+    border-bottom: 2px solid rgb(109, 1, 91);
+    padding-bottom: 5px;
+    
+}
+
+.width ul {
+    list-style: none;
+    padding: 0;
+}
+
+.width ul li {
+    margin: 5px 0;
+}
+
+.width ul li a {
+    color: rgb(244, 244, 244);
+    text-decoration: none;
+}
+
+.width ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-color: #045479;
+    color: rgb(250, 245, 245);
+    padding: 10px 0;
+    font-size: 14px;
+    clear: both;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    aside {
+        width: 100%;
+        float: none;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .main, article {
+        padding: 15px;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 8px 0;
+    }
+}
